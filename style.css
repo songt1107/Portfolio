@@ -224,7 +224,7 @@ a:hover{
 
 
 
-/*footer*/
+/* footer */
 
 
 .footer{
@@ -261,11 +261,10 @@ a:hover{
 
 
 
+/* INFO Section */
 
-/* INFO Section*/
 
-
-/*profile-section*/
+/* profile-section */
 
 .profile-section{
     display: flex;
@@ -276,9 +275,8 @@ a:hover{
     margin: 100px 100px;
 }
 
-
 #profile-picture{
-    width: 400px;
+    width: 60%;
     margin-right: 60px;
 }
 
@@ -306,7 +304,7 @@ a:hover{
 }
 
 
-/*value section*/
+/* value section */
 
 .value-menu{
     font-family: 'Montserrat', sans-serif;
@@ -364,8 +362,7 @@ a:hover{
 
 
 
-
-/*footer section*/
+/* footer section */
 
 .footer-comment{
     text-align: center;
@@ -383,22 +380,34 @@ a[title="Flaticon"]:hover{
 }
 
 @media all and (max-width:767px) {
-    nav > section:nth-child(1) button {
+
+    .dashboard > h1{
         font-size: 24px;
     }
-    nav > section:nth-child(1) {
-        flex-basis: 40%;
+
+    #thumb1{
+        width: 250px;
     }
-    .side-btn-box button {
-        margin-right: 5px;
-        font-size: 12px;
+    .thumbnail{
+        width: 300px;
     }
-    .content-box h1 {
+
+    .article-name{
+        font-size: 24px;
+    }
+
+    .footer > h3{
         font-size: 18px;
     }
-    .video-container {
-        padding-bottom: 45%; /* 다른 비율에 맞게 조절 가능 */
+
+    .links > a{
+        font-size: 14px;
     }
+
+    #profile-picture{
+        width: 300px;
+    }
+
 }
 
 /* 태블릿 */
