@@ -276,7 +276,7 @@ a:hover{
 }
 
 #profile-picture{
-    width: 60%;
+    width: 450px;
     margin-right: 60px;
 }
 
@@ -406,6 +406,10 @@ a[title="Flaticon"]:hover{
 
     #profile-picture{
         width: 300px;
+    }
+
+    .introduction > h2,.value-menu{
+        font-size: 24px;
     }
 
 }
